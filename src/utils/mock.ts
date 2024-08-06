@@ -1,4 +1,4 @@
-export const hotels = [
+export let hotels = [
   {
     "id": "59244",
     "name": "Rojas All Suite Hotel",
@@ -403,7 +403,7 @@ export const hotels = [
   {
     "id": "3814128",
     "name": "Belém Hotel",
-    "description": "Você se qualifica para um desconto Genius em Belém Hotel! Para economizar nesta acomodação, basta fazer o login. O Belém Hotel oferece acomodações em São Paulo, a 500 metros da estação de metrô de Belém e a cerca de 1,5 km do Templo de Solão. O hotel também fica a menos de 2 km das lojas de Bras. A propriedade fica a 5 km do Mercado Municipal de São Paulo.\nTodos os quartos do hotel estão equipados com TV de tela plana. O banheiro privativo conta com chuveiro.\nA Pinacoteca do Estado de São Paulo fica a 6 km do Belém Hotel. Já o Aeroporto de Congonhas&amp;#47;São Paulo fica a 17 km da propriedade. (HS)",
+    "description": "Você se qualifica para um desconto Genius em Belém Hotel! Para economizar nesta acomodação, basta fazer o login. O Belém Hotel oferece acomodações em São Paulo, a 500 metros da estação de metrô de Belém e a cerca de 1,5 km do Templo de Solão. O hotel também fica a menos de 2 km das lojas de Bras. A propriedade fica a 5 km do Mercado Municipal de São Paulo.\nTodos os quartos do hotel estão equipados com TV de tela plana. O banheiro privativo conta com chuveiro.\nA Pinacoteca do Estado de São Paulo fica a 6 km do Belém Hotel. Já o Aeroporto de Congonhas&amp#47São Paulo fica a 17 km da propriedade. (HS)",
     "source": "OMNIBEES",
     "award": 3,
     "isPreferential": false,
@@ -474,7 +474,7 @@ export const hotels = [
   {
     "id": "3815645",
     "name": "Esplanada Hotel",
-    "description": "Você se qualifica para um desconto Genius em Esplanada Hotel! Para economizar nesta acomodação, basta fazer o login.\nConvenientemente situado no centro de São Paulo, o Esplanada Hotel fica a 600 metros do Edifício Copan, a menos de 1 km da Sala São Paulo e a 15 minutos a pé do Teatro Porto Seguro. A propriedade fica a cerca de 1,9 km do Museu Catavento, a 2,1 km do Estádio do Pacaembu e a 2,3 km do Memorial da América Latina. A acomodação oferece recepção 24 horas e Wi-Fi gratuito em todos os ambientes.\nOs pontos de interesse famosos próximos ao hotel incluem a Pinacoteca do Estado de São Paulo, a Catedral Metropolitana de São Paulo e o Mercado Municipal de São Paulo. O aeroporto mais próximo é o Aeroporto de Congonhas&amp;#47;São Paulo, a 10 km do Esplanada Hotel. (HS)",
+    "description": "Você se qualifica para um desconto Genius em Esplanada Hotel! Para economizar nesta acomodação, basta fazer o login.\nConvenientemente situado no centro de São Paulo, o Esplanada Hotel fica a 600 metros do Edifício Copan, a menos de 1 km da Sala São Paulo e a 15 minutos a pé do Teatro Porto Seguro. A propriedade fica a cerca de 1,9 km do Museu Catavento, a 2,1 km do Estádio do Pacaembu e a 2,3 km do Memorial da América Latina. A acomodação oferece recepção 24 horas e Wi-Fi gratuito em todos os ambientes.\nOs pontos de interesse famosos próximos ao hotel incluem a Pinacoteca do Estado de São Paulo, a Catedral Metropolitana de São Paulo e o Mercado Municipal de São Paulo. O aeroporto mais próximo é o Aeroporto de Congonhas&amp#47São Paulo, a 10 km do Esplanada Hotel. (HS)",
     "source": "OMNIBEES",
     "award": 3,
     "isPreferential": false,
@@ -628,7 +628,7 @@ export const hotels = [
   {
     "id": "382814",
     "name": "Hotel Normandie ",
-    "description": "O Hotel Normandie fica situado no coração de São Paulo, na esquina entre a famosa Avenida Ipiranga com a Rua Santa Ifigênia. A menos de 10 minutos dos principais pontos de comércio, o Hotel Normandie, é um local jovem, moderno, e diferente dos hotéis tradicionais, ideal para o comerciante que procura fazer suas compras na movimentada Rua 25 de Março e nos tradicionais bairros do Bom Retiro e Brás. Desde um passeio mais erudito, como no Teatro Municipal de São Paulo, até à lugares mais badalados, como o tradicional Bar Brahma, o Bar da Dona Onça, o Edifício Copan, o Bar do Léo ou a Rua Augusta, para você que procura diversão e cultura na capital paulista, o Hotel Normandie está na melhor localização. Próximo aos dois aeroportos da região metropolitana, o Hotel Normandie é a melhor opção para você que quer aliar o conforto à boa localização. A região é coberta pelas linhas Vermelha, Amarela e Azul do metrô e abrange a estação Júlio Prestes da CPTM, além de estar no itinerário de várias linhas de ônibus e ser muito bem servida de pontos de táxi. O conforto, no Hotel Normandiel, começa em nosso lobby. Para comodidade e segurança, oferecemos aos nossos hóspedes um serviço especial de maleiros gratuitamente. Outros diferenciais são o nosso serviço de mensageiros e o completo Room Service, que está à disposição de nossos hóspedes, até as 22:00 horas. O Hotel Normandie possui quatro categorias de quartos, de acordo com a sua necessidade: Solteiro, Duplo (Solteiro e Casal), Triplo e Quádruplo. Tenha uma experiência diferenciada em qualquer um de nossos 162 apartamentos. Oferecemos os mesmos serviços à todos os quartos: ;• Acesso a internet wi-fi; • Ar Condicionado; • TV 40 polegadas LED;• Frigobar nos apartamentos; • Acesso por Elevador; • Piso frio nos aptos;• Fechaduras Eletrônicas nos aptos; • Cofre; • Telefone; • Secador de Cabelo; • Serviço de Quarto; • Serviço Gratuito de Maleiro; • Acessibilidade para Portadores de Mobilidade Reduzida; • O melhor café da manhã da cidade também oferece champanhe (incluso na diária).",
+    "description": "O Hotel Normandie fica situado no coração de São Paulo, na esquina entre a famosa Avenida Ipiranga com a Rua Santa Ifigênia. A menos de 10 minutos dos principais pontos de comércio, o Hotel Normandie, é um local jovem, moderno, e diferente dos hotéis tradicionais, ideal para o comerciante que procura fazer suas compras na movimentada Rua 25 de Março e nos tradicionais bairros do Bom Retiro e Brás. Desde um passeio mais erudito, como no Teatro Municipal de São Paulo, até à lugares mais badalados, como o tradicional Bar Brahma, o Bar da Dona Onça, o Edifício Copan, o Bar do Léo ou a Rua Augusta, para você que procura diversão e cultura na capital paulista, o Hotel Normandie está na melhor localização. Próximo aos dois aeroportos da região metropolitana, o Hotel Normandie é a melhor opção para você que quer aliar o conforto à boa localização. A região é coberta pelas linhas Vermelha, Amarela e Azul do metrô e abrange a estação Júlio Prestes da CPTM, além de estar no itinerário de várias linhas de ônibus e ser muito bem servida de pontos de táxi. O conforto, no Hotel Normandiel, começa em nosso lobby. Para comodidade e segurança, oferecemos aos nossos hóspedes um serviço especial de maleiros gratuitamente. Outros diferenciais são o nosso serviço de mensageiros e o completo Room Service, que está à disposição de nossos hóspedes, até as 22:00 horas. O Hotel Normandie possui quatro categorias de quartos, de acordo com a sua necessidade: Solteiro, Duplo (Solteiro e Casal), Triplo e Quádruplo. Tenha uma experiência diferenciada em qualquer um de nossos 162 apartamentos. Oferecemos os mesmos serviços à todos os quartos: • Acesso a internet wi-fi • Ar Condicionado • TV 40 polegadas LED• Frigobar nos apartamentos • Acesso por Elevador • Piso frio nos aptos• Fechaduras Eletrônicas nos aptos • Cofre • Telefone • Secador de Cabelo • Serviço de Quarto • Serviço Gratuito de Maleiro • Acessibilidade para Portadores de Mobilidade Reduzida • O melhor café da manhã da cidade também oferece champanhe (incluso na diária).",
     "source": "OMNIBEES",
     "award": 3,
     "isPreferential": false,
@@ -786,7 +786,7 @@ export const hotels = [
   {
     "id": "383096",
     "name": "Gran Villagio Hotel Sp By Castelo Itaipava",
-    "description": "O Gran Villagio Hotel SP está no coração histórico de São Paulo com uma localização única, próxima ao metro (estação Higienópolis-Mackenzie), em frente aos tradicionais restaurantes da Famiglia Mancini e a apenas 1,8 Km da Avenida Paulista. O Hotel antes conhecido pelo nome Braston Bussiness, dispõe de 09 amplas salas e eventos com capacidade para receber até 1700 pessoas.\nO Hotel após integrar a Rede Castelo Itaipava passou por reformas e modernizações, hoje dispondo de 249 suítes equipadas com camas queen, ar condicionado, frigobar, TV a cabo, mesa de trabalho e chuveiro a gás.\n0,1Km da Famiglia Mancini Trattoria;\n0,8Km da Estação República ou Estação Higienópolis-Mackenzie;\n1,3Km do Hospital Sírio-Libanês Bela Vista;\n02km da Av Paulista;\n04Km da Rua 25 de Março;\n05Km do Bairro Brás;\n06Km da Av Brigadeiro Faria Lima;\n07 Km do Parque Ibirapuera;",
+    "description": "O Gran Villagio Hotel SP está no coração histórico de São Paulo com uma localização única, próxima ao metro (estação Higienópolis-Mackenzie), em frente aos tradicionais restaurantes da Famiglia Mancini e a apenas 1,8 Km da Avenida Paulista. O Hotel antes conhecido pelo nome Braston Bussiness, dispõe de 09 amplas salas e eventos com capacidade para receber até 1700 pessoas.\nO Hotel após integrar a Rede Castelo Itaipava passou por reformas e modernizações, hoje dispondo de 249 suítes equipadas com camas queen, ar condicionado, frigobar, TV a cabo, mesa de trabalho e chuveiro a gás.\n0,1Km da Famiglia Mancini Trattoria\n0,8Km da Estação República ou Estação Higienópolis-Mackenzie\n1,3Km do Hospital Sírio-Libanês Bela Vista\n02km da Av Paulista\n04Km da Rua 25 de Março\n05Km do Bairro Brás\n06Km da Av Brigadeiro Faria Lima\n07 Km do Parque Ibirapuera",
     "source": "OMNIBEES",
     "award": 4,
     "isPreferential": false,
@@ -864,7 +864,7 @@ export const hotels = [
         "pricePerPaxWithoutTax": 841,
         "taxes": [
           {
-            "description": "-&gt; Cobramos taxa de serviço de 5%.",
+            "description": "-&gt Cobramos taxa de serviço de 5%.",
             "percent": 10,
             "amount": 117
           }
@@ -1052,7 +1052,7 @@ export const hotels = [
         "pricePerPaxWithoutTax": 872,
         "taxes": [
           {
-            "description": "-&gt; Cobramos taxa de serviço de 10%.",
+            "description": "-&gt Cobramos taxa de serviço de 10%.",
             "percent": 10,
             "amount": 122
           }
@@ -1064,7 +1064,7 @@ export const hotels = [
   {
     "id": "388835",
     "name": "Hotel Gran Corona",
-    "description": "O Hotel Gran Corona foi projetado nos seus mínimos detalhes para satisfazer e superar as expectativas dos hóspedes em conforto e qualidade. Situado na região mais tradicional do centro de São Paulo, à Rua Basílio da Gama, 101, próximo à Praça da República, Avenida São Luiz e Ipiranga. Excelente localização para todos que vem a São Paulo a lazer e negócios, pois estamos ao lado da estação de metrô Republica que facilita a locomoção aos centros de exposições Anhembi, Center Norte e Sao Paulo Expo. ;Para sua comodidade , dispomos do Alcazar Restaurante e Reflexus Bar onde são servidos saborosos pratos e deliciosos drink´s para os momentos de lazer e descanso.",
+    "description": "O Hotel Gran Corona foi projetado nos seus mínimos detalhes para satisfazer e superar as expectativas dos hóspedes em conforto e qualidade. Situado na região mais tradicional do centro de São Paulo, à Rua Basílio da Gama, 101, próximo à Praça da República, Avenida São Luiz e Ipiranga. Excelente localização para todos que vem a São Paulo a lazer e negócios, pois estamos ao lado da estação de metrô Republica que facilita a locomoção aos centros de exposições Anhembi, Center Norte e Sao Paulo Expo. Para sua comodidade , dispomos do Alcazar Restaurante e Reflexus Bar onde são servidos saborosos pratos e deliciosos drink´s para os momentos de lazer e descanso.",
     "source": "OMNIBEES",
     "award": 4,
     "isPreferential": false,
@@ -1275,3 +1275,16 @@ export const hotels = [
     }
   },
 ]
+export function sortHotels(type: 'price' | 'award') {
+  // Cria uma cópia do array antes de ordená-lo
+  let sortedHotels = [...hotels] // ou hotels.slice()
+
+  if (type == 'award') {
+    sortedHotels.sort((a, b) => b.award - a.award)
+  } else {
+    sortedHotels.sort((a, b) => a.room.rate.pricePerDayWithTax - b.room.rate.pricePerDayWithTax)
+  }
+
+  // Atualiza o array original com os novos valores ordenados
+  hotels = sortedHotels
+}

@@ -1,10 +1,10 @@
 <script lang="ts" setup>
 // importações de pacotes
-import { onMounted, computed, ref, watch } from 'vue'
+import { onMounted, computed, ref, watch, getCurrentInstance } from 'vue'
 import { useRoute } from 'vue-router'
 import * as dateFns from 'date-fns'
 // importações de outros arquivos do projeto (sempre utilizar o @ para referenciar o .app)
-import { hotels as hotelsMock } from '@/utils/mock'
+import { hotels, sortHotels } from '@/utils/mock'
 import HotelCard from '@/components/HotelCard.vue'
 import { useCompareStore } from '@/stores/compare'
 // importações de tipos
@@ -20,7 +20,6 @@ const compareStore = useCompareStore()
 // recursos de validação(zod, schema, initialvalue)
 // refs
 const compareDialog = ref(false)
-const hotels = ref(hotelsMock)
 // computeds
 const diffDays = computed(() => dateFns.differenceInDays(route.query.checkOut as string, route.query.checkIn as string))
 const hotelOne = computed(() => compareStore.checkedHotels[0])
@@ -32,15 +31,10 @@ function closeDialog() {
   resetCheckedHotels()
   compareDialog.value = false
 }
-function orderList(value: string) {
-  switch (value) {
-    case 'award':
-      hotels.value = hotelsMock.sort((a, b) => b.award - a.award)
-      return
-    default:
-      hotels.value = hotelsMock.sort((a, b) => a.room.rate.pricePerDayWithTax - b.room.rate.pricePerDayWithTax)
-      break;
-  }
+function orderList(value: 'price' | 'award') {
+  sortHotels(value)
+  const instance = getCurrentInstance()
+  instance?.proxy?.$forceUpdate()
 }
 // watches
 watch(() => compareStore.checkedHotels, () => {
@@ -75,8 +69,8 @@ watch(() => compareStore.checkedHotels, () => {
 
     <v-dialog persistent v-model="compareDialog" max-width="1152">
       <v-card class="p-4">
-        <div v-if="hotelOne && hotelTwo" class="flex">
-          <div class="hotel-one w-1/2 p-2">
+        <div v-if="hotelOne && hotelTwo" class="flex flex-col sm:flex-row">
+          <div class="hotel-one sm:w-1/2 p-2">
             <h3 class="text-3xl font-semibold text-muted-800">{{ hotelOne.name }}</h3>
             <p class="text-sm text-muted-500">{{ hotelOne.location.address }}</p>
             <v-rating size="x-small" readonly v-model="hotelOne.award" color="orange" density="compact"></v-rating>
@@ -102,7 +96,7 @@ watch(() => compareStore.checkedHotels, () => {
                 }) }}</span>/diária</p>
             </div>
           </div>
-          <div class="hotel-one w-1/2 border-l p-2">
+          <div class="hotel-one sm:w-1/2 border-t sm:border-t-0 sm:border-l p-2">
             <h3 class="text-3xl font-semibold text-muted-800">{{ hotelTwo.name }}</h3>
             <p class="text-sm text-muted-500">{{ hotelTwo.location.address }}</p>
             <v-rating size="x-small" readonly v-model="hotelTwo.award" color="orange" density="compact"></v-rating>
